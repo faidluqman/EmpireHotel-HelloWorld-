@@ -6,7 +6,7 @@ Please update team member name via branch and commit changes.
 ==Branch==
 Team members name:
 1. Muhammad Faid Luqman Bin Nor Hasni (Project Manager)
-2. Chaibou Issoufou Faizah
+2. Faizah Chaibou Issoufou (System Analyst and Tester)
 3. Syifaul Husna Binti Halim (Head Programmer)
 
 Update in Branch featureEnhancement:
