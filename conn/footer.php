@@ -1,26 +1,33 @@
- <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; <a href="admin_login.php">Empire Hotel 2016</a></p>
-                </div>
-            </div>
-        </div>
-    </footer>
+ <!-- Start footer -->
+          <div class="footer col-md-6 col-xs-offset-3">
+             <h5>Copyright 2020
+                 <a href="#"><i class="fa fa-facebook fa-1x icon1"></i></a>
+                 <a href="#"><i class="fa fa-twitter fa-1x icon1"></i></a>
+                 <a href="#"><i class="fa fa-instagram fa-1x icon1"></i></a>
+             </h5>
+          </div>
+          <!-- End footer -->
+ </div>
+      <!-- End col-md-12 -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+   </div>
+   <!-- End wrapper -->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+      
+   <!-- jQuery Version 1.11.0 -->
+   <script src="js/jquery-1.11.0.js"></script>
+   <!-- Boostrap JS -->
+   <script src="js/bootstrap.min.js"></script>
+   <!-- Smooth scroll JS -->
+   <script src="js/smoothscroll.js"></script>
+   
+   <!-- Wow JavaScript -->
+   <script src="js/wow.js"></script>
+    
+   <script>
+   new WOW().init();
+   </script>
 
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
 
 </body>
-
 </html>

@@ -31,7 +31,7 @@
 						if(move_uploaded_file($file_tmp=$_FILES["picture"]["tmp_name"][$key], "img/".$file_name)){
 							 $insert = insertFile($file_name);
 							   if($insert){
-									header("location: admin_picture.php?success=true");
+									header("location: admin_gallery.php?success=true");
 							   }
 								else{
 									echo mysql_error();
@@ -46,7 +46,7 @@
 							if(move_uploaded_file($file_tmp=$_FILES["picture"]["tmp_name"][$key], "img/".$newpicture)){
 								$insert = insertFile($newpicture);
 								if($insert){
-									header("location: admin_picture.php?success=true");
+									header("location: admin_gallery.php");
 								}
                             }
 						}
